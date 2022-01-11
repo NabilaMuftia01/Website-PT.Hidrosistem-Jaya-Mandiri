@@ -1,0 +1,29 @@
+[
+    {
+        "kdbrg": "HJM-049295224",
+        "name": "1 1/2' Ball Valve s.90 Class 600 Screwed-Full Bore",
+        "stock": "10",
+        "satuan": "pcs",
+        "kdgroup": "Common Part",
+        "hjual": "0",
+        "hbeli": "0"
+    },
+    {
+        "kdbrg": "HJM-049295232",
+        "name": "2' Ball Valve s.90 Class 600 Screwed-Full Bore ",
+        "stock": "45",
+        "satuan": "pcs",
+        "kdgroup": "Common Part",
+        "hjual": "0",
+        "hbeli": "0"
+    },
+    {
+        "kdbrg": "HJM-105098701",
+        "name": "PTO Hino FL235 Transmisi MF 06S ",
+        "stock": "88",
+        "satuan": "pcs",
+        "kdgroup": "PTO",
+        "hjual": "0",
+        "hbeli": "0"
+    }
+]

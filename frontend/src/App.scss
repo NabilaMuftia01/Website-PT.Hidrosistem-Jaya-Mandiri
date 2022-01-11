@@ -1,0 +1,370 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins") url("./font/Poppins/Poppins-Black.ttf")
+    format("truetype");
+}
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f1f5fb;
+  font-family: "Poppins";
+  hr {
+    opacity: 0;
+  }
+}
+
+.greenColor {
+  color: green;
+}
+
+.redColor {
+  color: red;
+}
+
+//APP.JS
+.App {
+  display: flex;
+  .index {
+    flex: 1;
+  }
+}
+
+// SIDEBAR.JS
+.sidebar {
+  height: 100vh;
+  min-width: 230px;
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: 10px 10px 50px #bfbfbf, -10px -10px 50px #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .userpicture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    svg {
+      height: 100px;
+      width: 100px;
+    }
+    p {
+      margin: 0px;
+    }
+    b {
+      text-transform: capitalize;
+    }
+  }
+  .menu {
+    flex: 1;
+  }
+
+  .support {
+    padding-bottom: 25px;
+  }
+}
+
+//HEADER.JS
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 94.63px;
+  padding: 0px 80px;
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  img {
+    width: auto;
+    height: 50%;
+  }
+}
+
+//MASUK.JS
+.masuk-content {
+  img {
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(30%);
+  }
+  .masuk-box {
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #f1f5fb;
+    padding: 100px;
+    img {
+      width: auto;
+      height: 75px;
+      display: block;
+      margin: auto;
+    }
+    h1 {
+      margin: 25px;
+      font-weight: bold;
+      font-size: 36px;
+    }
+    .input {
+      margin: 25px;
+      .Input-form {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        label {
+          font-weight: bold;
+          opacity: 0.75;
+        }
+      }
+      .Input-button {
+        button {
+          width: 100%;
+          padding: 10px;
+          color: #f1f5fb;
+          border: none;
+          border-radius: 10px;
+          outline: none;
+          background-color: #231f20;
+        }
+        button:hover {
+          width: 100%;
+          padding: 10px;
+          color: #f1f5fb;
+          border: none;
+          border-radius: 10px;
+          outline: none;
+          background-color: #231f20;
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}
+
+//HOME.JS
+.home-content {
+  padding: 25px 60px;
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    margin: 0px 20px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px;
+    color: #231f20;
+    opacity: 0.5;
+    margin: 10px 20px;
+  }
+}
+.box-list {
+  padding: 20px 0px;
+  .box-up {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .box {
+      background-color: #fff;
+      border-radius: 25px;
+      height: 150px;
+      width: 350px;
+      display: flex;
+      margin: 20px;
+      .Info {
+        margin-right: 40px;
+        padding: 25px 20px;
+        flex: 65%;
+        p {
+          font-size: 18px;
+          font-weight: bold;
+        }
+        b {
+          font-size: 22px;
+        }
+      }
+      .icon {
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding-right: 15px;
+        svg {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
+
+//ALLLIST.JS
+.content {
+  h2 {
+    padding: 25px 80px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .dataTables_wrapper {
+    padding: 40px 80px;
+  }
+}
+
+//ALLTAMBAH.JS
+.Tambah {
+  display: flex;
+  padding: 0px 60px;
+  flex-wrap: wrap;
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
+    width: 50%;
+    padding: 0px 20px;
+    label {
+      font-weight: bold;
+      margin: 0px;
+    }
+  }
+  .button {
+    padding: 0px 10px;
+    margin: 20px 0px;
+    Button {
+      margin: 0px 10px;
+    }
+  }
+}
+
+.barang-details {
+  background-color: #ffffff;
+  height: 567px;
+  margin: 0px 80px;
+  border-radius: 25px;
+  h5 {
+    opacity: 0.7;
+    margin-top: 10px;
+  }
+  .barang-name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    height: 75%;
+  }
+  .barang-button {
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+//SHIPPINGBARANG.JS
+.Barang_Shipping {
+  margin: 20px 80px;
+  display: flex;
+  justify-content: center;
+  .barang-shipping {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+  }
+}
+
+//BARANG-DETAILS.JS
+.barang-confirm {
+  margin: 0px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Barang_Confirm {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    img {
+      width: auto;
+      height: 50px;
+      display: block;
+      margin: 0 auto;
+    }
+    .list-barang {
+      padding: 30px 10px;
+      hr {
+        opacity: 1;
+      }
+      li {
+        list-style: none;
+        h4 {
+          font-size: 18px;
+          font-weight: bold;
+        }
+        h5 {
+          font-size: 16px;
+          opacity: 0.7;
+        }
+      }
+    }
+    Button {
+      display: block;
+      margin: 0 auto;
+      width: 75%;
+    }
+  }
+}
+
+//SETTING.JS
+.setting {
+  margin: 50px 80px;
+  background-color: #fff;
+  border-radius: 15px;
+  h2 {
+    padding: 30px;
+    margin: 0px;
+  }
+  .profile-details {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-around;
+    .input {
+      label {
+        font-weight: bold;
+      }
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.setting-password {
+  margin: 50px 80px;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 50%;
+  h2 {
+    padding: 30px;
+    margin: 0px;
+  }
+  .password-details {
+    padding: 20px 30px;
+    .input-password {
+      .label {
+        font-weight: bold;
+      }
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      margin: 20px 0px;
+    }
+  }
+}
